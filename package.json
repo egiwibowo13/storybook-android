@@ -1,0 +1,28 @@
+{
+  "name": "@storybook/native-android-material-deep-link-example",
+  "version": "2.2.0",
+  "private": true,
+  "description": "An android demo app for storybook native",
+  "repository": "",
+  "author": "Vanya Sehgal <vanya_sehgal@intuit.com>",
+  "license": "MIT",
+  "contributors": [
+    "Vanya Sehgal <vanya_sehgal@intuit.com>"
+  ],
+  "scripts": {
+    "start": "yarn build:stories && yarn start-storybook -p 53743",
+    "build:storybook": "yarn build:stories && yarn build-storybook",
+    "build:stories": "node ./generate.js",
+    "release:storybook": "yarn build:stories && storybook-to-ghpages"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@storybook/native": "^2.2.0",
+    "@storybook/native-addon": "^2.2.0",
+    "axios": "0.20.0",
+    "change-case": "4.1.1"
+  },
+  "devDependencies": {
+    "@storybook/storybook-deployer": "^2.8.10"
+  }
+}

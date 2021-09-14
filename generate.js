@@ -45,6 +45,10 @@ const components = [
     },
     {
         name: "switch",
+        control: {
+            label: "",
+            switch: false,
+        },
         docs:
             "https://raw.githubusercontent.com/material-components/material-components-android/master/docs/components/Switch.md"
     },
@@ -72,6 +76,7 @@ const components = [
 
 const promises = components.map(async (component) => {
     const docsRequest = await axios.get(component.docs);
+    console.log({data: docsRequest.data})
     return generateStories({
         category: pascalCase(component.name),
         filePath: `./stories/${component.name}.stories.jsx`,

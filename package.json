@@ -17,12 +17,21 @@
   },
   "keywords": [],
   "dependencies": {
+    "@storybook/addon-controls": "^6.3.8",
+    "@storybook/addon-docs": "^6.3.8",
     "@storybook/native": "^2.2.0",
     "@storybook/native-addon": "^2.2.0",
+    "@storybook/native-dev-middleware": "^2.2.0",
     "axios": "0.20.0",
-    "change-case": "4.1.1"
+    "change-case": "4.1.1",
+    "prettier": "^2.4.0"
   },
   "devDependencies": {
-    "@storybook/storybook-deployer": "^2.8.10"
+    "@storybook/storybook-deployer": "^2.8.10",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.1",
+    "raw-loader": "^4.0.2"
   }
 }

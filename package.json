@@ -22,6 +22,7 @@
     "@storybook/native": "^2.2.0",
     "@storybook/native-addon": "^2.2.0",
     "@storybook/native-dev-middleware": "^2.2.0",
+    "@storybook/react": "^6.3.8",
     "axios": "0.20.0",
     "change-case": "4.1.1",
     "prettier": "^2.4.0"

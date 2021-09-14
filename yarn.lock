@@ -2055,7 +2055,7 @@
     react-docgen-typescript "^2.0.0"
     tslib "^2.0.0"
 
-"@storybook/react@^6.0.6":
+"@storybook/react@^6.0.6", "@storybook/react@^6.3.8":
   version "6.3.8"
   resolved "https://registry.npmjs.org/@storybook/react/-/react-6.3.8.tgz"
   integrity sha512-X+xFilz6qHEMj6m7nKqoH2uDAIWSbjASj7kGW6rdVj6WvCpLeEQhM4wdrulRXFsbAetWtl/KZnmtjakgXzYGKg==

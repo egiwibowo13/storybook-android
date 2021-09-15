@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Headline">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:fontFamily">@font/opensans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textMidnight</item>
+    </style>
+
+    <style name="Headline.Error">
+        <item name="android:textColor">@color/textError</item>
+    </style>
+
+    <style name="Headline2" parent="Headline">
+        <item name="android:textSize">@dimen/text_size_14</item>
+    </style>
+
+    <style name="Headline2.Error">
+        <item name="android:textColor">@color/textError</item>
+    </style>
+
+    <style name="Subtitle">
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:fontFamily">@font/nunito</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/textMidnight</item>
+    </style>
+
+    <style name="Subtitle.Error">
+        <item name="android:textColor">@color/textError</item>
+    </style>
+
+    <style name="Subtitle2" parent="Subtitle">
+        <item name="android:textSize">@dimen/text_size_12</item>
+    </style>
+
+    <style name="Subtitle2.Error">
+        <item name="android:textColor">@color/textError</item>
+    </style>
+
+    <style name="Body">
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:fontFamily">@font/nunito</item>
+        <item name="android:textColor">@color/textMidnight</item>
+    </style>
+
+    <style name="Body.Error">
+        <item name="android:textColor">@color/textError</item>
+    </style>
+
+    <style name="Caption">
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:fontFamily">@font/nunito</item>
+        <item name="android:textColor">@color/textMidnight</item>
+    </style>
+
+    <style name="Caption.Error">
+        <item name="android:textColor">@color/textError</item>
+    </style>
+
+    <style name="Caption2" parent="Caption">
+        <item name="android:textSize">@dimen/text_size_10</item>
+    </style>
+
+    <style name="Caption2.Error">
+        <item name="android:textColor">@color/textError</item>
+    </style>
+
+</resources>

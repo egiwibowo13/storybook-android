@@ -1,0 +1,33 @@
+import { Meta, Typeset, Source } from '@storybook/addon-docs/blocks';
+
+import { typography } from './../../utils/styles.js';
+import { TypographyTemplate, Dess } from './typography.stories.js';
+import TextStyles from '../../../app/libraries/common-ui/src/main/res/values/styles_text.xml';
+
+<Meta title="Typography" component={Dess} />
+
+# Typography
+
+**Font:** Nunito Sans
+
+**Weights:** 400(regular), 700(bold), 800(extrabold), 900(black)
+
+<Typeset
+  fontSizes={[
+    Number(typography.size.s1),
+    Number(typography.size.s2),
+    Number(typography.size.s3),
+    Number(typography.size.m1),
+    Number(typography.size.m2),
+    Number(typography.size.m3),
+    Number(typography.size.l1),
+    Number(typography.size.l2),
+    Number(typography.size.l3),
+  ]}
+  fontWeight={typography.weight.black}
+/>
+
+<details>
+  <summary>The entrance point is <code>styles_text.xml</code></summary>
+  <Source code={TextStyles} language='xml' dark={false}/>
+</details>

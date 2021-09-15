@@ -1,2 +1,3 @@
 include ':app'
+include ':libraries:common-ui'
 rootProject.name = "Storybook Demo App"

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryRed">#C72037</color>
+    <color name="primaryWhite">#FFFFFF</color>
+
+    <color name="secondaryBlue">#293780</color>
+    <color name="secondaryYellow">#FFC400</color>
+    <color name="secondaryGreen">#25974C</color>
+    <color name="secondaryGray">#808C92</color>
+    <color name="secondaryRed">#C72037</color>
+
+    <color name="textMidnight">#2E434D</color>
+    <color name="textPrimary">@color/primaryRed</color>
+    <color name="textInactive">#808C92</color>
+    <color name="textPlaceholder">#ADADAD</color>
+    <color name="textWhite">@color/primaryWhite</color>
+    <color name="textError">#D42027</color>
+
+    <color name="bgScreen">#FDFDFD</color>
+    <color name="bgInactive">#EDF0F2</color>
+    <color name="bgBlackout">#802E434D</color> <!-- 2E434D, 50% -->
+    <color name="bgWhite">@color/primaryWhite</color>
+    <color name="bgGradientRed">#E53958</color>
+    <color name="bgGradientGreen">#039E66</color>
+
+    <color name="borderInputField">#DEE3ED</color>
+    <color name="borderOther">#F1F3F7</color>
+    <color name="borderFocus">#535E98</color>
+
+    <color name="red_m40">#F5E4E7</color>
+    <color name="red10">#D14C5E</color>
+    <color name="red30">#D42027</color>
+
+    <color name="gray_m30">#C9CED0</color>
+
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_no_connection_dialog">Yah, internet kamu terputus</string>
+    <string name="label_no_connection_dialog">Coba cek di pengaturan jaringan internet atau cek sisa kuota kamu.</string>
+    <string name="action_reload">Muat Ulang</string>
+    <string name="action_setting">Pengaturan</string>
+
+    <string name="title_server_error_dialog">Oops, server sedang mengalami gangguan nih</string>
+    <string name="label_server_error_dialog">Tunggu sebentar ya, tim terbaik kami sedang coba memperbaikinya. Coba lagi atau kembali lagi nanti.</string>
+    <string name="action_retry">Coba Lagi</string>
+</resources>

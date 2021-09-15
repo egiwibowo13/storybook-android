@@ -1,0 +1,16 @@
+import { Meta, ColorPalette, ColorItem, Description, Source } from '@storybook/addon-docs/blocks';
+
+import { color } from '../../utils/styles.js';
+import { ColorPaletteX } from './color_palette.jsx';
+import Colors from '../../../app/libraries/common-ui/src/main/res/values/colors.xml';
+
+<Meta title="Colors" />
+
+# Colors
+
+<ColorPaletteX />
+
+<details>
+  <summary>The entrance point is <code>colors.xml</code></summary>
+  <Source code={Colors} language='xml' dark={false}/>
+</details>

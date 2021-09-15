@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TensButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:textAppearance">@style/Subtitle</item>
+        <item name="android:paddingTop">@dimen/button_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/button_vertical_padding</item>
+        <item name="android:paddingStart">@dimen/button_horizontal_padding</item>
+        <item name="android:paddingEnd">@dimen/button_horizontal_padding</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="iconPadding">@dimen/spacing_xMedium</item>
+        <item name="cornerRadius">@dimen/button_radius</item>
+        <item name="iconSize">@dimen/button_icon_size</item>
+    </style>
+
+    <style name="TensButton.Primary">
+        <item name="backgroundTint">@color/button_primary</item>
+        <item name="android:textColor">@color/button_text_primary_state</item>
+        <item name="iconTint">@color/button_icon_primary</item>
+    </style>
+
+    <style name="TensButton.Secondary">
+        <item name="backgroundTint">@color/button_secondary</item>
+        <item name="android:textColor">@color/button_text_secondary_state</item>
+        <item name="strokeColor">@color/button_stroke_secondary</item>
+        <item name="strokeWidth">@dimen/button_border_width</item>
+        <item name="iconTint">@color/button_icon_secondary</item>
+    </style>
+</resources>

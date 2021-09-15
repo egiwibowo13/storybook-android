@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TensInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeErrorColor">@color/textError</item>
+        <item name="boxStrokeColor">@color/input</item>
+        <item name="boxBackgroundColor">@color/bgWhite</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">1dp</item>
+        <item name="endIconTint">@color/textMidnight</item>
+        <item name="android:theme">@style/TensInputTheme</item>
+    </style>
+
+    <style name="TensInputText" parent="Widget.AppCompat.EditText">
+        <item name="android:textAppearance">@style/Body</item>
+        <item name="hintTextAppearance">@style/Body</item>
+        <item name="hintTextColor">@color/textPlaceholder</item>
+    </style>
+
+    <style name="TensInputTheme" parent="ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="colorControlActivated">@color/textMidnight</item>
+    </style>
+
+    <style name="TensInputLayout.Inactive">
+        <item name="android:background"> @color/bgInactive</item>
+        <item name="boxBackgroundColor"> @color/bgInactive </item>
+    </style>
+
+</resources>

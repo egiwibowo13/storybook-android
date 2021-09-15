@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/spacing_horizontal"
+        android:layout_marginEnd="@dimen/spacing_small"
+        android:padding="@dimen/spacing_small"
+        android:src="@drawable/ic_baseline_close_24"
+        app:tint="@color/textPlaceholder" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        style="@style/Headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnClose"
+        android:layout_marginStart="@dimen/spacing_horizontal"
+        tools:text="Title Dialog" />
+
+    <TextView
+        android:id="@+id/tvContent"
+        style="@style/Body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_alignStart="@id/tvTitle"
+        android:layout_marginTop="@dimen/spacing_xMedium"
+        android:layout_marginBottom="@dimen/spacing_small"
+        tools:text="Content dialog" />
+
+    <Button
+        android:id="@+id/btnPositive"
+        style="@style/TensButton.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvContent"
+        android:layout_marginHorizontal="@dimen/spacing_horizontal"
+        android:layout_marginTop="@dimen/spacing_medium"
+        android:layout_marginBottom="@dimen/spacing_medium"
+        tools:text="Positive Button" />
+
+</RelativeLayout>
